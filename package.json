@@ -1,0 +1,17 @@
+{
+  "name": "gold-arbitrage-bot",
+  "version": "1.1.0",
+  "description": "Gold arbitrage bot with 15-min cron, web dashboard, webhook, and Polygon trade execution",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "web3": "^4.9.0"
+  }
+}
